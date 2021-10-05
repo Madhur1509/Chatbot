@@ -1,0 +1,1 @@
+The responses and the queries can be modified by adding and modifying the content in the "intents" file.
