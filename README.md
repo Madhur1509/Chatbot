@@ -2,12 +2,12 @@ A chatbot is a piece of software that can communicate and conduct tasks in the s
 
 The 5 steps followed for creating the chatbot are:
 
-Import and load the data file
-Preprocess data
-Create training and testing data
-Build the model
-Predict the response
-In order to run the chatbot GUI, first train the dataset by using the command:
-python train_chatbot.py
-If there are no compilation errors, the model has been created successfully, you can now run the GUI using:
-python chatgui.py# Chatbot
+- 1.Import and load the data file
+- 2.Preprocess data
+- 3.Create training and testing data
+- 4.Build the model
+- 5.Predict the response
+- In order to run the chatbot GUI, first train the dataset by using the command:
+*python train_chatbot.py*
+- If there are no compilation errors, the model has been created successfully, you can now run the GUI using:
+*python chatgui.py# Chatbot*
