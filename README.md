@@ -9,5 +9,5 @@ The 5 steps followed for creating the chatbot are:
 - 5.Predict the response
 <br />In order to run the chatbot GUI, first train the dataset by using the command: <br />
 *python train_chatbot.py* <br />
-- If there are no compilation errors, the model has been created successfully, you can now run the GUI using:<br />
+If there are no compilation errors, the model has been created successfully, you can now run the GUI using:<br />
 *python chatgui.py# Chatbot*
