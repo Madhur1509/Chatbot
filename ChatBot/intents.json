@@ -1,0 +1,88 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can play some music","display some gaming facts"],
+         "context": [""]
+        },
+        {"tag": "music",
+         "patterns": ["play history has its eyes on you","can you find me some chill music?","play disco","play some rock for me","can you find me some hip hop","play music","music","song"],
+         "responses": ["Sure. Here you go!"],
+         "context": [""]
+        },
+        {"tag": "game",
+         "patterns": ["give a gaming fact","gaming fact","give me a gaming fact","game","fact"],
+         "responses": ["Sonic The Hedgehog isn't only the name of Sega's speedy mascot, but also a gene on chromosome 7 of the human genome.","Ever wondered what happens to Leon's cool leather jacket in Resident Evil 4? It inexplicably disappears after the scene in the village. Well, on the PS2 version, go through Ada's side-quest and one of the Ganado villagers will be wearing it.","In the early stages of its development, Half-Life 2 featured a friendly alien that would follow Gordon Freeman around, feasting on the bodies of his fallen enemies.","In 1986, Nintendo released a special Disk System peripheral for the NES in Japan. Among its features was a microphone in the controller, which certain games used, including an updated version of the original Zelda. You could only destroy a certain enemy by shouting into the mic.","The famously awful E.T. game for the Atari 2600 actually sold more than its most famous game, Space Invaders. E.T. sold 1.5 million, while Invaders only shifted a million.","A boss character called Binbag was removed from Rockstars Manhunt early in its development. He was a psychopath wrapped in black refuse sacks.","Rockstar also removed a character from Grand Theft Auto 3, although this time it was said to be because of the terrorist attacks on September 11th. He was called Darkel, a homeless guy whod get you to rig buildings with explosives.","In Pilotwings 64, the character Lark is actually the mascot for famous American games magazine Nintendo Power, Nester. His name was changed at the last minute, probably because PAL gamers wouldnt know who he was.","In Fallout 2, theres a hidden room in Junktown, in the Cafe Of Broken Dreams, where you can find Dogmeat, the Vault Dweller from the first games faithful hound.","There are currently over 100 million Game Boys in the world; both the original and the colour variant. 32 million of them are in Japan, and there are 44 million in America.","Attacking the fat, black pig on Outset Island in The Legend Of Zelda: Wind Waker will eventually cause it to attack.Its 100% invincible, though, so watch out.","If, for some strange reason, you still have a Madden NFL 06 save game on your memory card, a special Madden van will be unlocked when you start up Burnout Revenge on PS2.","In the first Max Payne, Max’s face was digitised from series writer Sam Lake, but in the second game they used an actor called Timothy Gibbs, who starred in ladies’ favourite Sex And The City.","At the end of a game of Civilization IV, players are rated based on their performance by a comparison to one of 10 world leaders. The lowest rating compares the player to former US Vice-President Dan Quayle, who is legendary for such wisdom as If we do not succeed, then we run the risk of failure"],
+         "context": [""]
+        },
+        {"tag": "adverse_drug",
+         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+         "responses": ["Navigating to Adverse drug reaction module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Navigating to Blood Pressure module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "wrong",
+         "patterns": ["that was wrong","that's not what I asked","incorrect","not correct","you are wrong","not right","wrong","it is not right","that's not right","it's wrong"],
+         "responses": ["I'm sorry. Perhaps I misunderstood.","Sorry. I think I misinterpreted what you said.","Apologies. That was my mistake.","Oops. Sorry about that. I'm still learning."],
+         "context": [""]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
